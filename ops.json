@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "30002af3-8cf8-335b-91f4-f1d6eecd76e2",
+    "name": "Dragovich",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "919aecfc-4028-3453-859c-17e98fc7b328",
+    "name": "Number_1",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4a4c6ba6-1a1e-3391-bc69-b94e2762870c",
+    "name": "archi",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a443ddc2-83d3-377a-a1cb-d62ef3ab8ab8",
+    "name": "\u0027hard\u0027",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d8673ada-7e9d-3cc4-bd0f-21e5c88a9827",
+    "name": "Mick",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

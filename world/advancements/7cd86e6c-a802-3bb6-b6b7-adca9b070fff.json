@@ -1,0 +1,15 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2019-06-21 21:02:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "birch_forest": "2019-06-21 20:58:37 +0300",
+      "birch_forest_hills": "2019-06-21 20:38:01 +0300"
+    },
+    "done": false
+  }
+}

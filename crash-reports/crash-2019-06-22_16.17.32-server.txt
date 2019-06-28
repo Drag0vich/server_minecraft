@@ -1,0 +1,110 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  SpongeCoremod (spongeforge-1.12.2-2825-7.1.6.jar)
+Contact their authors BEFORE contacting forge
+
+// Surprise! Haha. Well, this is awkward.
+
+Time: 6/22/19 4:17 PM
+Description: Exception in server tick loop
+
+java.lang.IllegalStateException: failed to create a child event loop
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:88)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:58)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:47)
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:58)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:77)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:72)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:59)
+	at net.minecraft.network.NetworkSystem$1.func_179280_b(NetworkSystem.java:52)
+	at net.minecraft.network.NetworkSystem$1.func_179280_b(NetworkSystem.java:49)
+	at net.minecraft.util.LazyLoadBase.func_179281_c(SourceFile:10)
+	at net.minecraft.network.NetworkSystem.func_151265_a(NetworkSystem.java:120)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:190)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: io.netty.channel.ChannelException: failed to open a new selector
+	at io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:157)
+	at io.netty.channel.nio.NioEventLoop.<init>(NioEventLoop.java:149)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:127)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:36)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84)
+	... 13 more
+Caused by: java.io.IOException: Unable to establish loopback connection
+	at sun.nio.ch.PipeImpl$Initializer.run(Unknown Source)
+	at sun.nio.ch.PipeImpl$Initializer.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.nio.ch.PipeImpl.<init>(Unknown Source)
+	at sun.nio.ch.SelectorProviderImpl.openPipe(Unknown Source)
+	at java.nio.channels.Pipe.open(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.<init>(Unknown Source)
+	at sun.nio.ch.WindowsSelectorProvider.openSelector(Unknown Source)
+	at io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:155)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(Unknown Source)
+	... 26 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:88)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:58)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:47)
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:58)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:77)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:72)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:59)
+	at net.minecraft.network.NetworkSystem$1.func_179280_b(NetworkSystem.java:52)
+	at net.minecraft.network.NetworkSystem$1.func_179280_b(NetworkSystem.java:49)
+
+-- Sponge PhaseTracker --
+Details:
+	Phase Stack: [Empty stack]
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.handler$onCrashReport$zjo000(MinecraftServer.java:3980)
+	at net.minecraft.server.MinecraftServer.func_71230_b(MinecraftServer.java:889)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71230_b(DedicatedServer.java:371)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:558)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_211, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 3639953312 bytes (3471 MB) / 4131389440 bytes (3940 MB) up to 4131389440 bytes (3940 MB)
+	JVM Flags: 2 total; -Xms4G -Xmx4G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2838 9 mods loaded, 9 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID          | Version           | Source                                  | Signature                                |
+	|:----- |:----------- |:----------------- |:--------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft   | 1.12.2            | minecraft.jar                           | None                                     |
+	| LCH   | mcp         | 9.42              | minecraft.jar                           | None                                     |
+	| LCH   | FML         | 8.0.99.99         | forge-1.12.2-14.23.5.2838-universal.jar | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | forge       | 14.23.5.2838      | forge-1.12.2-14.23.5.2838-universal.jar | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | spongeapi   | 7.1.0-fb496dbf0   | spongeforge-1.12.2-2825-7.1.6.jar       | None                                     |
+	| LCH   | sponge      | 1.12.2-7.1.6      | spongeforge-1.12.2-2825-7.1.6.jar       | None                                     |
+	| LCH   | spongeforge | 1.12.2-2825-7.1.6 | spongeforge-1.12.2-2825-7.1.6.jar       | None                                     |
+	| LCH   | nanochat    | 1.4               | nanochat-1.4.jar                        | None                                     |
+	| LCH   | nucleus     | 1.11.0-S7.1       | Nucleus-1.11.0-S7.1-MC1.12.2-plugin.jar | None                                     |
+
+	Loaded coremods (and transformers): 
+SpongeCoremod (spongeforge-1.12.2-2825-7.1.6.jar)
+  org.spongepowered.common.launch.transformer.SpongeSuperclassTransformer
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge,sponge'
+	Type: Dedicated Server (map_server.txt)

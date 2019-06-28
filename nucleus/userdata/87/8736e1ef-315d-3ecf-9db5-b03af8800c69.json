@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "lastKnownName": "Ивангай",
+  "lastLocation": {
+    "x": 215.5,
+    "y": 71.0,
+    "z": 208.5,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "fd0de647-25b0-47be-a637-a5aad3b134c6"
+  },
+  "lastLogin": 1561136961298,
+  "lastLogout": 1561136972846,
+  "lastIP": "/25.78.156.106",
+  "firstJoin": 1561136411623,
+  "startedFirstJoin": false,
+  "invulnerable": false,
+  "jailOnNextLogin": false,
+  "vanish": false,
+  "fly": false,
+  "isFrozen": false,
+  "notes": [],
+  "warnings": [],
+  "mail": []
+}

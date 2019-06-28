@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "lastKnownName": "Malinin",
+  "lastLocation": {
+    "x": 416.5,
+    "y": 70.0,
+    "z": 256.5,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "fd0de647-25b0-47be-a637-a5aad3b134c6"
+  },
+  "lastLogin": 1561144195207,
+  "lastLogout": 1561144214172,
+  "lastIP": "/25.91.73.57",
+  "firstJoin": 1561144116256,
+  "startedFirstJoin": false,
+  "fly": false,
+  "mail": [],
+  "jailOnNextLogin": false,
+  "invulnerable": false,
+  "isFrozen": false,
+  "notes": [],
+  "vanish": false,
+  "warnings": []
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "invulnerable": false,
+  "fly": false,
+  "jailOnNextLogin": false,
+  "isFrozen": false,
+  "lastKnownName": "Hard_Candy",
+  "lastLogin": 1561303004141,
+  "lastLogout": 1561306987380,
+  "lastIP": "/25.77.6.60",
+  "firstJoin": 1561139458474,
+  "startedFirstJoin": false,
+  "vanish": false,
+  "homes": {
+    "home": {
+      "x": -387.92476483787283,
+      "y": 97.0,
+      "z": -628.7598400865133,
+      "rotx": 9.300043106079102,
+      "roty": 86.692626953125,
+      "rotz": 0.0,
+      "world": "0c1d8062-7a17-4484-897d-31b4f44a4e8f"
+    }
+  },
+  "lastLocation": {
+    "x": -398.88008110505405,
+    "y": 97.0,
+    "z": -628.2289064018286,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "0c1d8062-7a17-4484-897d-31b4f44a4e8f"
+  },
+  "powertools": {},
+  "warnings": [],
+  "notes": [],
+  "mail": []
+}

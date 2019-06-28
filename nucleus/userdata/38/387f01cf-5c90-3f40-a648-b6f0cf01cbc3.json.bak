@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "lastKnownName": "7uckingawesome",
+  "lastLocation": {
+    "x": 215.5,
+    "y": 71.0,
+    "z": 208.5,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "fd0de647-25b0-47be-a637-a5aad3b134c6"
+  },
+  "lastLogin": 1561143887792,
+  "lastLogout": 1561143906773,
+  "lastIP": "/25.78.156.106",
+  "firstJoin": 1561143613536,
+  "startedFirstJoin": false,
+  "fly": false,
+  "mail": [],
+  "jailOnNextLogin": false,
+  "isFrozen": false,
+  "notes": [],
+  "invulnerable": false,
+  "vanish": false,
+  "warnings": []
+}

@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "lastKnownName": "Hard Candy",
+  "lastLogin": 1561136948374,
+  "lastLogout": 1561139378085,
+  "lastIP": "/25.77.6.60",
+  "firstJoin": 1561135539976,
+  "startedFirstJoin": false,
+  "invulnerable": false,
+  "jailOnNextLogin": false,
+  "vanish": false,
+  "fly": false,
+  "isFrozen": false,
+  "lastLocation": {
+    "x": 437.3534069142483,
+    "y": 63.0,
+    "z": 262.90338977051067,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "fd0de647-25b0-47be-a637-a5aad3b134c6"
+  },
+  "notes": [],
+  "warnings": [],
+  "mail": []
+}

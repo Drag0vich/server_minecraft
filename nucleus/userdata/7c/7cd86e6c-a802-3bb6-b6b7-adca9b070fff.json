@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "invulnerable": false,
+  "fly": false,
+  "jailOnNextLogin": false,
+  "isFrozen": false,
+  "lastKnownName": "ANdReY",
+  "lastLocation": {
+    "x": 419.5,
+    "y": 63.0,
+    "z": 267.5,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "fd0de647-25b0-47be-a637-a5aad3b134c6"
+  },
+  "lastLogin": 1561140483703,
+  "lastLogout": 1561140502662,
+  "lastIP": "/25.78.156.106",
+  "firstJoin": 1561138680318,
+  "startedFirstJoin": false,
+  "vanish": false,
+  "warnings": [],
+  "notes": [],
+  "mail": []
+}

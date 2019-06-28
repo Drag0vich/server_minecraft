@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "invulnerable": false,
+  "fly": false,
+  "jailOnNextLogin": false,
+  "isFrozen": false,
+  "notes": [],
+  "warnings": [],
+  "mail": [],
+  "lastKnownName": "Champion",
+  "lastLocation": {
+    "x": 215.5,
+    "y": 71.0,
+    "z": 208.5,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "fd0de647-25b0-47be-a637-a5aad3b134c6"
+  },
+  "lastLogin": 1561138518055,
+  "lastLogout": 1561138536998,
+  "lastIP": "/25.78.156.106",
+  "firstJoin": 1561137853991,
+  "startedFirstJoin": false,
+  "vanish": false
+}

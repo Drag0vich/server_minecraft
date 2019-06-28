@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "lastKnownName": "Number_1",
+  "lastLogin": 1561578310833,
+  "lastLogout": 1561586484287,
+  "lastIP": "/25.78.156.106",
+  "firstJoin": 1561296243432,
+  "startedFirstJoin": false,
+  "fly": false,
+  "vanish": false,
+  "invulnerable": false,
+  "isFrozen": false,
+  "jailOnNextLogin": false,
+  "lastLocation": {
+    "x": -640.4877157463351,
+    "y": 70.0,
+    "z": 487.7066340652784,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "0c1d8062-7a17-4484-897d-31b4f44a4e8f"
+  },
+  "homes": {
+    "home": {
+      "x": -638.9269358624341,
+      "y": 70.0,
+      "z": 487.71876163829575,
+      "rotx": 27.74982452392578,
+      "roty": 60.02592468261719,
+      "rotz": 0.0,
+      "world": "0c1d8062-7a17-4484-897d-31b4f44a4e8f"
+    }
+  },
+  "warnings": [],
+  "powertools": {},
+  "notes": [],
+  "mail": []
+}

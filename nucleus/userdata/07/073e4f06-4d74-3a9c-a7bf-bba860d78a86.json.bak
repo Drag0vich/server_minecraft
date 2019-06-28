@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "lastKnownName": "Sergay",
+  "lastLocation": {
+    "x": 215.5,
+    "y": 71.0,
+    "z": 208.5,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "fd0de647-25b0-47be-a637-a5aad3b134c6"
+  },
+  "lastLogin": 1561136141504,
+  "lastLogout": 1561136160487,
+  "lastIP": "/25.78.156.106",
+  "firstJoin": 1561135978924,
+  "startedFirstJoin": false,
+  "notes": [],
+  "mail": [],
+  "invulnerable": false,
+  "jailOnNextLogin": false,
+  "warnings": [],
+  "vanish": false,
+  "fly": false,
+  "isFrozen": false
+}

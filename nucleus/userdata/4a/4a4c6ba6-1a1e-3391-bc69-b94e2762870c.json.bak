@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "lastKnownName": "archi",
+  "lastLogin": 1561579396077,
+  "lastLogout": 1561586425101,
+  "lastIP": "/127.0.0.1",
+  "firstJoin": 1561135482473,
+  "startedFirstJoin": false,
+  "invulnerable": false,
+  "jailOnNextLogin": false,
+  "vanish": false,
+  "fly": false,
+  "isFrozen": false,
+  "lastLocation": {
+    "x": -293.70163253440774,
+    "y": 93.0,
+    "z": 383.52039100215853,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "0c1d8062-7a17-4484-897d-31b4f44a4e8f"
+  },
+  "homes": {
+    "home": {
+      "x": -295.0239360513669,
+      "y": 93.0,
+      "z": 384.7728136731505,
+      "rotx": 16.20011329650879,
+      "roty": 341.398681640625,
+      "rotz": 0.0,
+      "world": "0c1d8062-7a17-4484-897d-31b4f44a4e8f"
+    }
+  },
+  "warnings": [],
+  "powertools": {},
+  "notes": [],
+  "mail": []
+}

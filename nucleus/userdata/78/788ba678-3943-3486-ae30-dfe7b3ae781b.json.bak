@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "lastKnownName": "GrandMaster",
+  "lastLocation": {
+    "x": 453.5,
+    "y": 66.0,
+    "z": 258.5,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "fd0de647-25b0-47be-a637-a5aad3b134c6"
+  },
+  "lastLogin": 1561144778499,
+  "lastLogout": 1561144797474,
+  "lastIP": "/25.78.156.106",
+  "firstJoin": 1561141232036,
+  "startedFirstJoin": false,
+  "jailOnNextLogin": false,
+  "isFrozen": false,
+  "invulnerable": false,
+  "fly": false,
+  "vanish": false,
+  "mail": [],
+  "notes": [],
+  "warnings": []
+}
